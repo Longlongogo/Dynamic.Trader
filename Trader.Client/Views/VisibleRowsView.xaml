@@ -8,7 +8,7 @@
              xmlns:infrastucture="clr-namespace:Trader.Client.Infrastucture"
              mc:Ignorable="d" 
                           d:DataContext="{d:DesignInstance views:VisibleRowsViewer, IsDesignTimeCreatable=False}"
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="700" d:DesignWidth="1000">
 
     <UserControl.Resources>
         <ResourceDictionary>
