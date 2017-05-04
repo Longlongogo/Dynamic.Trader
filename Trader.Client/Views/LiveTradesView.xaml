@@ -6,7 +6,7 @@
              xmlns:views="clr-namespace:Trader.Client.Views"
              d:DataContext="{d:DesignInstance views:LiveTradesViewer, IsDesignTimeCreatable=False}"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="700" d:DesignWidth="1000">
     <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>

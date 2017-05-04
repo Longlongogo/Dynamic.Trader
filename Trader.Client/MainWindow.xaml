@@ -16,10 +16,9 @@
         GlowBrush="{DynamicResource AccentColorBrush3}"
         WindowStartupLocation="CenterScreen"  
         EnableDWMDropShadow="True"
-        WindowTransitionsEnabled="False"
-    
+        WindowTransitionsEnabled="False" 
         Title="Dynamic Trader" Height="500" Width="700"
-      d:DataContext="{d:DesignInstance infrastucture:WindowViewModel, IsDesignTimeCreatable=False}">
+        d:DataContext="{d:DesignInstance infrastucture:WindowViewModel, IsDesignTimeCreatable=False}">
 
 
     <Window.Resources>

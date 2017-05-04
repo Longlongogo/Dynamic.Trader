@@ -7,29 +7,29 @@
              mc:Ignorable="d" 
               d:DataContext="{d:DesignInstance infrastucture:MenuItems, IsDesignTimeCreatable=False}"
              d:DesignHeight="300" >
-<UserControl.Resources>
-    
-    <ResourceDictionary>
-        <ResourceDictionary.MergedDictionaries>
+    <UserControl.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/materialdesigntheme.button.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/materialdesigntheme.togglebutton.xaml" />
             </ResourceDictionary.MergedDictionaries>
             <infrastucture:EqualityToBooleanConverter x:Key="EqualityToBooleanConverter"/>
-        
-    </ResourceDictionary>
-</UserControl.Resources>
+
+        </ResourceDictionary>
+    </UserControl.Resources>
 
 
     <Grid  Margin="4"  >
-      
-      <Grid.RowDefinitions>
-          <RowDefinition Height="Auto"/>
-          <RowDefinition Height="*"/>
-      </Grid.RowDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
 
         <Grid Margin="4" >
-            
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
@@ -50,8 +50,8 @@
                   IsChecked="{Binding ShowLinks}"/>
 
             </StackPanel>
-            
-           
+
+
             <StackPanel Grid.Column="0" 
                         Orientation="Horizontal" 
                         Margin="0 0 8 0">
@@ -68,7 +68,7 @@
                          ToolTip="Filter menu on items which illustrate integration between Dynamic Data and Reactive UI"/>
             </StackPanel>
         </Grid>
-        
+
         <ScrollViewer Grid.Row="1">
             <ItemsControl  ItemsSource="{Binding Items}">
                 <ItemsControl.ItemsPanel>
@@ -98,14 +98,14 @@
                                         Width="85"
                                         Height="85"
                                         Padding="8">
-                                
+
                                 <TextBlock FontSize="14" 
                                            FontWeight="Normal"
                                            Text="{Binding Title}"
                                            
                                            TextWrapping="WrapWithOverflow"/>
 
-     
+
                             </Button>
 
                             <Grid Margin="5 4 5 0"
@@ -152,8 +152,8 @@
                             </Grid>
                         </Grid>
                     </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
 
         </ScrollViewer>
     </Grid>
