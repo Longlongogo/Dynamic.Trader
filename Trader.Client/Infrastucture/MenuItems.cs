@@ -123,7 +123,7 @@ namespace Trader.Client.Infrastucture
                        "Visualiser for log files. Also accumulates log entries and handles user interaction.",
                         () => OpenRxUI<LogEntryViewer>("Log Entry"),
                          MenuCategory.ReactiveUi
-                        ,new []
+                        ,new [] 
                     {
                         new Link("View Model", "LogEntryViewer.cs","https://github.com/RolandPheasant/Dynamic.Trader/blob/master/Trader.Client/Views/LogEntryViewer.cs"),
                         new Link("Log Entry Proxy", "LogEntryProxy.cs","https://github.com/RolandPheasant/Dynamic.Trader/blob/master/Trader.Client/Infrastucture/LogEntryProxy.cs"),

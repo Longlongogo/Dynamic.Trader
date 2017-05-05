@@ -6,7 +6,7 @@
              xmlns:infrastucture="clr-namespace:Trader.Client.Infrastucture"
              mc:Ignorable="d" 
               d:DataContext="{d:DesignInstance infrastucture:MenuItems, IsDesignTimeCreatable=False}"
-             d:DesignHeight="300" >
+             d:DesignHeight="300" d:DesignWidth="500" >
     <UserControl.Resources>
 
         <ResourceDictionary>
@@ -110,7 +110,7 @@
 
                             <Grid Margin="5 4 5 0"
                          
-                              Visibility="{Binding ElementName=showLinks,Path=IsChecked, Converter={StaticResource  BooleanToVisibilityConverter}}"
+                              Visibility="{Binding ElementName=!showLinks,Path=IsChecked, Converter={StaticResource  BooleanToVisibilityConverter}}"
                               VerticalAlignment="Top"
                               Grid.Column="1" >
 
