@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Trader.Client",
+    "\\Trader.Client\\Views",
+    "\\Trader.Domain",
+    "\\Trader.Domain\\Infrastucture"
+  ],
+  "SelectedNode": "\\Trader.Client\\MainWindow.xaml",
+  "PreviewInSolutionExplorer": false
+}
